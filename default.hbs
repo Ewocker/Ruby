@@ -14,7 +14,8 @@
 
 <body class="{{body_class}}{{{block "body_class"}}}">
     <div class="site">
-        {{> header}}
+        {{> casper-header}}
+	{{> header}}
         <div class="site-content">
             {{{body}}}
         </div>
@@ -34,7 +35,8 @@
 
     {{{block "scripts"}}}
 
-    {{ghost_foot}}
+    {{ ghost_foot}}
+
 </body>
 
 </html>
