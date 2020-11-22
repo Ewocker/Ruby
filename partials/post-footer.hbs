@@ -1,6 +1,9 @@
 <footer class="post-footer">
     <a class="post-link" href="{{url}}">Read More</a>
     <div class="post-author">
+        <a class="post-link" href="{{primary_author.url}}">
+            {{primary_author.name}} &nbsp;
+        </a>
         {{#foreach authors}}
             {{#if profile_image}}
                 <a class="post-author-link" href="{{url}}">

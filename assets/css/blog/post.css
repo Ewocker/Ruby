@@ -55,8 +55,17 @@
     font-family: serif;
 }
 
+.post-card-metadata {
+    display: flex;
+}
+
+.post-readtime {
+    color: var(--secondary-text-color);
+    font-size:11px;
+    font-weight: 500;
+}
+
 .post-date {
-    display: block;
     color: var(--secondary-text-color);
     font-size: 11px;
     font-weight: 700;
