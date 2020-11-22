@@ -2360,6 +2360,8 @@ Usage (In Ghost editor):
 
 /* 8. Author Template
 /* ---------------------------------------------------------- */
+
+/*
 .author-header {
     display: flex;
     flex-direction: row;
@@ -2511,6 +2513,7 @@ Usage (In Ghost editor):
     }
 }
 
+*/
 
 /* 9. Error Template
 /* ---------------------------------------------------------- */
