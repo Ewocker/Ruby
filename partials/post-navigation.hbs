@@ -1,5 +1,5 @@
 <div class="navigation">
-    {{#prev_post}}
+    {{#prev_post in="primary-tag"}}
         <div class="navigation-item navigation-previous">
             <img class="navigation-image lazyload u-object-fit"
                 data-srcset="{{img_url feature_image size="s"}} 400w, {{img_url feature_image size="m"}} 750w, {{img_url feature_image size="l"}} 960w"
@@ -11,7 +11,7 @@
         </div>
     {{/prev_post}}
 
-    {{#next_post}}
+    {{#next_post in="primary_tag"}}
         <div class="navigation-item navigation-next">
             <img class="navigation-image lazyload u-object-fit"
                 data-srcset="{{img_url feature_image size="s"}} 400w, {{img_url feature_image size="m"}} 750w, {{img_url feature_image size="l"}} 960w"
